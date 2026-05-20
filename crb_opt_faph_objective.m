@@ -27,7 +27,7 @@ function objective = crb_opt_faph_objective(x)
     % T1 = [500 990];
     % T2 = [75 115];
 
-       % 3T Brain Values (GM/WM)
+    % 3T Brain Values (GM/WM)
     % T1 = [800 1300];
     % T2 = [70 105];
     
