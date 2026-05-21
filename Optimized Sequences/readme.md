@@ -1,1 +1,1 @@
-Here you can find a collection of 3T brain and 0.55T brain and prostate flip angle (FA) and quadratic RF phase increment schedules. For ease of implementation, additional RF phase schedules are also provided for each sequence.
+Here you can find a collection of 3T brain and 0.55T brain and prostate flip angle (_FA) and quadratic RF phase increment (_PHINC) schedules. For ease of implementation, additional RF phase (_PH) schedules are also provided for sequences with joint flip angle and phase increment optimization.
