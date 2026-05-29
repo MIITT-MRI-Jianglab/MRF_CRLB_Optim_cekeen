@@ -33,7 +33,7 @@ function objective = crb_opt_faph_objective(x)
     
     % Calculate CRB
     crbmat = zeros(3,3);
-    w = diag([2e-5 5e-4 3e1]); % Weights from Zhao et al. Magn Reson Med. 2019
+    w = diag([2e-5 5e-4 3e1]); % Weights from Zhao et al. IEE TMI. 2019
     parfor l = 1:length(T1)
         w = diag([1/T1(l)^2 T2(l)^2,0]); % Alternative CRLB weights
         crbmat = crbmat + w*calc_crlb_mex(params,T1(l),T2(l),1);
