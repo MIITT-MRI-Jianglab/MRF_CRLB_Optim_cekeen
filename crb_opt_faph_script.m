@@ -26,9 +26,6 @@ B1 = deg2rad(0.025 * ones(1,d_ph-1));
 B2 = deg2rad(1 * ones(1,d_fa-1));
 B = [deg2rad(5) B1 B2 B1 B2];
 
-Aeq = [zeros(1,d_ph-1) 1 zeros(1,d_fa)];
-Beq = 0;
-
 lb = [deg2rad(0 * ones(1,d_ph)) deg2rad(0 * ones(1,d_fa))];
 ub = [deg2rad(10 * ones(1,d_ph)) deg2rad(amax * ones(1,d_fa))];
 
